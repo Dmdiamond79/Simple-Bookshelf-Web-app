@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.book-container,
+.search-container,
+.favorite-container,
+.not-completed-container,
+.completed-container {
+    padding: 10px;
+    width: 30%;
+    margin: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+}
+
+.star {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.container {
+    background-color: rgba(67, 198, 241, 0.5); /* transparent blue */
+    backdrop-filter: blur(10px); /* blur effect */
+}
+
+.book-container, .search-container, .favorite-container,
+.not-completed-container, .completed-container {
+    background-color: #fff; /* White background for inner containers */
+}
+
+.book-container,
+.search-container,
+.favorite-container,
+.not-completed-container,
+.completed-container {
+    border-radius: 10px;
+    padding: 20px 20px;
+    color: #5F30E2;
+    background: linear-gradient(135deg, rgba(200, 220, 255, 0.9), rgba(255, 255, 255, 0.9)); /* Gradient */
+    backdrop-filter: blur(10px); /* blur 10px */
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.input {
+    flex-direction: column;
+    margin: 5px;
+}
+
+.input label {
+    margin-bottom: 5px;
+    color: black;
+}
+
+.input input {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #5F30E2;
+}
+
+.input-book, .search-book {
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #14a86f;
+    color: white;
+    cursor: pointer;
+}
+
+.search-container label {
+    margin-bottom: 5px;
+    color: black;
+}
+
+.search-container input {
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-color: #5F30E2;
+}
+
+
+.star {
+    color: #f39c12; /*  orange for the star color */
+}
+
+ 
+ header {
+    background-color: #5F30E2;
+    color: white;
+    text-align: center;
+    padding: 1px;
+        }
+
+
+footer {
+    background-color: #5F30E2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+        }
+
