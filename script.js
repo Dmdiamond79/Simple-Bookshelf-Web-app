@@ -19,7 +19,7 @@ addBookForm.addEventListener('submit', function (event) {
     // Get values from the input fields: title, author, year, and completion status
     const title = document.getElementById('title').value;
     const author = document.getElementById('author').value;
-    const year = document.getElementById('year').value;
+    const year = Number(document.getElementById('year').value);
     const isComplete = document.getElementById('isComplete').checked;
     const id = new Date().getTime();
     const book = {
